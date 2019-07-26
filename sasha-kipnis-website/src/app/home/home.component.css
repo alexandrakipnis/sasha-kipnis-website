@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700" rel="stylesheet');
+html {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+fa-icon {
+    font-size: 35px;
+    -webkit-transition: color 0.25s;
+    -moz-transition: color 0.25s;
+    -ms-transition: color 0.25s;
+    -o-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+fa-icon:hover {
+    font-size: 34.5px;
+    color: rgb(149, 96, 202);
+    transition-delay: 1ms;
+}
+
+a {
+    padding: 1rem 1rem;
+}
