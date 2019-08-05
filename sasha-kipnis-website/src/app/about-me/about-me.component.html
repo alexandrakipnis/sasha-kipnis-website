@@ -1,0 +1,18 @@
+<mat-grid-list cols="2" rowHeight="3:1">
+    <mat-grid-tile 
+        *ngFor="let tile of tiles">
+        <div class="evens" *ngIf="tile.id == 1; else odds">
+            <!-- <img class="image1" src="https://rawgit.com/alexandrakipnis/photos/master/IMG_0603.JPG"> -->
+            <div class="content1">
+                {{tile.text}}
+            </div>
+        </div>
+        <ng-template #odds>
+            <div class="content2">
+                {{tile.text}}
+            </div>
+            <!-- <img class="image2" src=> -->
+        </ng-template>
+    </mat-grid-tile>
+</mat-grid-list>
+      
