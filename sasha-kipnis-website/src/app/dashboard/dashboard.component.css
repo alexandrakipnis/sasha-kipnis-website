@@ -2,4 +2,6 @@
     margin-right: 8px;
 }
 
-  
+.mat-tab-body-wrapper {
+    justify-content: center !important;
+}

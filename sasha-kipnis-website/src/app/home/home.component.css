@@ -1,25 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400,700" rel="stylesheet');
-html {
+.main-content {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Poppins, sans-serif;
+    position: fixed; /* or absolute */
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.title {
+    font-size: 40px;
 }
 
 fa-icon {
-    font-size: 35px;
+    font-size: 40px;
     -webkit-transition: color 0.25s;
     -moz-transition: color 0.25s;
     -ms-transition: color 0.25s;
     -o-transition: color 0.25s;
     transition: color 0.25s;
+    margin: 10px;
 }
 
 fa-icon:hover {
-    font-size: 34.5px;
-    color: rgb(149, 96, 202);
+    font-size: 39.5px;
+    color: rgb(212, 212, 212);
     transition-delay: 1ms;
-}
-
-a {
-    padding: 1rem 1rem;
 }
