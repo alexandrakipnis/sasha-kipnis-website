@@ -14,6 +14,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 //Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faTwitter, faFacebook, faInstagram, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
 //Components
 import { AppComponent } from './app.component';
@@ -56,6 +57,7 @@ export class AppModule {
     library.add(faGithub);
     library.add(faInstagram);
     library.add(faLinkedin);
+    library.add(faLightbulb)
   }
 
 }

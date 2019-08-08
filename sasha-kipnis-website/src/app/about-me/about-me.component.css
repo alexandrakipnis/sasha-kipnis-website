@@ -13,6 +13,8 @@
 }
 
 img {
-    width: 50%;
+    vertical-align: middle;
+    width: 30%;
     height: auto;
+    border-radius: 50%;
 }
