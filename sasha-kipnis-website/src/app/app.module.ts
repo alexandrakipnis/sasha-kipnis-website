@@ -7,6 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 import {MatGridListModule} from '@angular/material/grid-list';
 import { AppRoutingModule } from './app-routing.module';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatButtonModule} from '@angular/material';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 //Font Awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -18,6 +21,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ExperienceComponent } from './resume/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +31,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
     HeaderComponent,
     HomeComponent,
     AboutMeComponent,
+    ResumeComponent,
+    ExperienceComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +42,9 @@ import { AboutMeComponent } from './about-me/about-me.component';
     BrowserAnimationsModule,
     FontAwesomeModule,
     MatGridListModule,
+    MatExpansionModule,
+    MatButtonModule,
+    MatProgressBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,17 +1,22 @@
+<div style="padding: 8px;"></div>
 <mat-grid-list cols="2" rowHeight="3:1">
     <mat-grid-tile 
         *ngFor="let tile of tiles">
-        <div class="evens" *ngIf="tile.id == 1; else odds">
-            <!-- <img class="image1" src="https://rawgit.com/alexandrakipnis/photos/master/IMG_0603.JPG"> -->
+        <ng-container class="evens" *ngIf="tile.id == 1; else odds">
+            <img src={{tile.image}}>
+            <div class="pad"></div>
             <div class="content1">
                 {{tile.text}}
             </div>
-        </div>
+        </ng-container>
+        <div class="pad"></div>
         <ng-template #odds>
+                <div class="pad"></div>
             <div class="content2">
                 {{tile.text}}
             </div>
-            <!-- <img class="image2" src=> -->
+            <div class="pad"></div>
+            <img src={{tile.image}}>
         </ng-template>
     </mat-grid-tile>
 </mat-grid-list>

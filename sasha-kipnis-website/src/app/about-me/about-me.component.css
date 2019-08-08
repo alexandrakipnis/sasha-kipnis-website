@@ -1,20 +1,18 @@
 .content1 {
     width: 50%;
     text-align: right;
-}
-
-.image1 {
-    width: 50%;
-    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
 }
 
 .content2 {
     width: 50%;
-    text-align: left;
+    text-align: left !important;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
 }
 
-.image2 {
+img {
     width: 50%;
-    text-align: left;
+    height: auto;
 }
-
