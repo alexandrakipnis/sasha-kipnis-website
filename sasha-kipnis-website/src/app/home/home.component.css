@@ -19,10 +19,15 @@ fa-icon {
     -o-transition: color 0.25s;
     transition: color 0.25s;
     margin: 10px;
+    color: #512DA8;
 }
 
 fa-icon:hover {
     font-size: 39.5px;
     color: rgb(212, 212, 212);
     transition-delay: 1ms;
+}
+
+fa-icon:visited {
+    color: #512DA8;
 }

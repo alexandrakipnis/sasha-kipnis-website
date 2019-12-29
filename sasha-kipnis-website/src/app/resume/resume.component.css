@@ -21,3 +21,100 @@ mat-form-field {
     font-family: Poppins, sans-serif;
     font-size: 15px;
 }
+
+.python, .java, .c, .r, .js, .angular, .react, .html, .russian, .spanish{
+  display: flex;
+}
+
+/* python */
+::ng-deep .python-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .python-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+/*java*/
+::ng-deep .java-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .java-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+/*C*/
+::ng-deep .c-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .c-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+/*R*/
+::ng-deep .r-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .r-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+/*JavaScript*/
+::ng-deep .js-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .js-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+/*HTML/CSS*/
+::ng-deep .html-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .html-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+/*angular*/
+::ng-deep .angular-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .angular-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+/*react*/
+::ng-deep .react-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .react-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+/*Russian*/
+::ng-deep .russian-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .russian-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+/*Spanish*/
+::ng-deep .spanish-progress .mat-progress-bar-fill::after {
+  background-color: #1E457C;
+}
+
+::ng-deep .spanish-progress .mat-progress-bar-buffer {
+  background: #E4E8EB;
+}
+
+::ng-deep .mat-progress-bar {
+  border-radius: 2px;
+}

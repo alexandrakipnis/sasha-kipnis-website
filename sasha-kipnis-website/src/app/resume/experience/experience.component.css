@@ -5,3 +5,15 @@ mat-accordion {
 ul {
     list-style-type: circle;
 }
+
+h5 {
+    font-family: Poppins, sans-serif;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+mat-panel-title {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+}

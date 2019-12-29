@@ -1,0 +1,13 @@
+<mat-grid-list cols="3" rowHeight="1:1">
+    <mat-grid-tile *ngFor="let tile of tiles">
+        <div class="leadershipcontent">
+            <h3>{{tile.title}}</h3>
+            <h5>{{tile.subtitle}}</h5>
+            <ul>
+                <li>{{tile.item1}}</li>
+                <li>{{tile.item2}}</li>
+                <li>{{tile.item3}}</li>
+            </ul>
+        </div>
+    </mat-grid-tile>
+</mat-grid-list>

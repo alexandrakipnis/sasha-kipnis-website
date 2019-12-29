@@ -24,6 +24,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ExperienceComponent } from './resume/experience/experience.component';
+import { LeadershipComponent } from './leadership/leadership.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ExperienceComponent } from './resume/experience/experience.component';
     AboutMeComponent,
     ResumeComponent,
     ExperienceComponent,
+    LeadershipComponent,
   ],
   imports: [
     BrowserModule,

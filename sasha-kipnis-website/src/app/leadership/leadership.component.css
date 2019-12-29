@@ -1,0 +1,22 @@
+h3 {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+h5 {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+li {
+    font-family: Poppins, sans-serif;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.leadershipcontent {
+    vertical-align: middle;
+}
